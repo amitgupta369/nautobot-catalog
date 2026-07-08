@@ -2,7 +2,7 @@ from nautobot_catalog.services.navigation import (
     CatalogNavigationService,
 )
 
-catalog_tab = CatalogNavigationService.build_navigation()
+catalog_tab = None #CatalogNavigationService.build_navigation()
 
 menu_items = ()
 
