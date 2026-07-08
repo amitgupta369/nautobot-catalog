@@ -1,0 +1,999 @@
+[
+    {
+        "app": "nautobot.circuits",
+        "plugin": "Circuits",
+        "group": "Circuits",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Circuits",
+                "link": "/circuits/circuits/",
+                "weight": 100
+            },
+            {
+                "name": "Circuit Terminations",
+                "link": "/circuits/circuit-terminations/",
+                "weight": 200
+            },
+            {
+                "name": "Circuit Types",
+                "link": "/circuits/circuit-types/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.circuits",
+        "plugin": "Circuits",
+        "group": "Providers",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Providers",
+                "link": "/circuits/providers/",
+                "weight": 100
+            },
+            {
+                "name": "Provider Networks",
+                "link": "/circuits/provider-networks/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.cloud",
+        "plugin": "Cloud",
+        "group": "Cloud",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Cloud Services",
+                "link": "/cloud/cloud-services/",
+                "weight": 100
+            },
+            {
+                "name": "Cloud Networks",
+                "link": "/cloud/cloud-networks/",
+                "weight": 200
+            },
+            {
+                "name": "Cloud Resource Types",
+                "link": "/cloud/cloud-resource-types/",
+                "weight": 300
+            },
+            {
+                "name": "Cloud Accounts",
+                "link": "/cloud/cloud-accounts/",
+                "weight": 400
+            }
+        ]
+    },
+    {
+        "app": "nautobot.data_validation",
+        "plugin": "Data Validation Engine",
+        "group": "Data Validation",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Min/Max Rules",
+                "link": "/data-validation/min-max-rules/",
+                "weight": 1000
+            },
+            {
+                "name": "Regex Rules",
+                "link": "/data-validation/regex-rules/",
+                "weight": 1000
+            },
+            {
+                "name": "Required Rules",
+                "link": "/data-validation/required-rules/",
+                "weight": 1000
+            },
+            {
+                "name": "Unique Rules",
+                "link": "/data-validation/unique-rules/",
+                "weight": 1000
+            },
+            {
+                "name": "Data Compliance",
+                "link": "/data-validation/data-compliance/",
+                "weight": 1000
+            },
+            {
+                "name": "Device Constraints",
+                "link": "/data-validation/device-constraints/",
+                "weight": 1000
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Locations",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Locations",
+                "link": "/dcim/locations/",
+                "weight": 100
+            },
+            {
+                "name": "Location Types",
+                "link": "/dcim/location-types/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Racks",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Racks",
+                "link": "/dcim/racks/",
+                "weight": 100
+            },
+            {
+                "name": "Rack Groups",
+                "link": "/dcim/rack-groups/",
+                "weight": 200
+            },
+            {
+                "name": "Rack Reservations",
+                "link": "/dcim/rack-reservations/",
+                "weight": 400
+            },
+            {
+                "name": "Elevations",
+                "link": "/dcim/rack-elevations/",
+                "weight": 500
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Devices",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Devices",
+                "link": "/dcim/devices/",
+                "weight": 100
+            },
+            {
+                "name": "Virtual Chassis",
+                "link": "/dcim/virtual-chassis/",
+                "weight": 400
+            },
+            {
+                "name": "Device Redundancy Groups",
+                "link": "/dcim/device-redundancy-groups/",
+                "weight": 500
+            },
+            {
+                "name": "Interface Redundancy Groups",
+                "link": "/dcim/interface-redundancy-groups/",
+                "weight": 600
+            },
+            {
+                "name": "Virtual Device Contexts",
+                "link": "/dcim/virtual-device-contexts/",
+                "weight": 700
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Device Types",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Device Types",
+                "link": "/dcim/device-types/",
+                "weight": 100
+            },
+            {
+                "name": "Device Families",
+                "link": "/dcim/device-families/",
+                "weight": 200
+            },
+            {
+                "name": "Manufacturers",
+                "link": "/dcim/manufacturers/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Modules",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Modules",
+                "link": "/dcim/modules/",
+                "weight": 100
+            },
+            {
+                "name": "Module Types",
+                "link": "/dcim/module-types/",
+                "weight": 200
+            },
+            {
+                "name": "Module Families",
+                "link": "/dcim/module-families/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Software",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Platforms",
+                "link": "/dcim/platforms/",
+                "weight": 100
+            },
+            {
+                "name": "Software Versions",
+                "link": "/dcim/software-versions/",
+                "weight": 200
+            },
+            {
+                "name": "Software Image Files",
+                "link": "/dcim/software-image-files/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Controllers",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Controllers",
+                "link": "/dcim/controllers/",
+                "weight": 100
+            },
+            {
+                "name": "Device Groups",
+                "link": "/dcim/controller-managed-device-groups/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Connections",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Cables",
+                "link": "/dcim/cables/",
+                "weight": 100
+            },
+            {
+                "name": "Console Connections",
+                "link": "/dcim/console-connections/",
+                "weight": 200
+            },
+            {
+                "name": "Power Connections",
+                "link": "/dcim/power-connections/",
+                "weight": 300
+            },
+            {
+                "name": "Interface Connections",
+                "link": "/dcim/interface-connections/",
+                "weight": 400
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Device Components",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Interfaces",
+                "link": "/dcim/interfaces/",
+                "weight": 100
+            },
+            {
+                "name": "Front Ports",
+                "link": "/dcim/front-ports/",
+                "weight": 200
+            },
+            {
+                "name": "Rear Ports",
+                "link": "/dcim/rear-ports/",
+                "weight": 300
+            },
+            {
+                "name": "Console Ports",
+                "link": "/dcim/console-ports/",
+                "weight": 400
+            },
+            {
+                "name": "Console Server Ports",
+                "link": "/dcim/console-server-ports/",
+                "weight": 500
+            },
+            {
+                "name": "Power Ports",
+                "link": "/dcim/power-ports/",
+                "weight": 600
+            },
+            {
+                "name": "Power Outlets",
+                "link": "/dcim/power-outlets/",
+                "weight": 700
+            },
+            {
+                "name": "Device Bays",
+                "link": "/dcim/device-bays/",
+                "weight": 800
+            },
+            {
+                "name": "Module Bays",
+                "link": "/dcim/module-bays/",
+                "weight": 850
+            },
+            {
+                "name": "Inventory Items",
+                "link": "/dcim/inventory-items/",
+                "weight": 900
+            }
+        ]
+    },
+    {
+        "app": "nautobot.dcim",
+        "plugin": "DCIM",
+        "group": "Power",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Power Feeds",
+                "link": "/dcim/power-feeds/",
+                "weight": 1000
+            },
+            {
+                "name": "Power Panels",
+                "link": "/dcim/power-panels/",
+                "weight": 1000
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Approval Workflows",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Workflow Definitions",
+                "link": "/extras/approval-workflow-definitions/",
+                "weight": 100
+            },
+            {
+                "name": "Approval Dashboard",
+                "link": "/extras/approver-dashboard/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Contacts",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Contacts",
+                "link": "/extras/contacts/",
+                "weight": 100
+            },
+            {
+                "name": "Teams",
+                "link": "/extras/teams/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Groups",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Dynamic Groups",
+                "link": "/extras/dynamic-groups/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Metadata",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Tags",
+                "link": "/extras/tags/",
+                "weight": 100
+            },
+            {
+                "name": "Statuses",
+                "link": "/extras/statuses/",
+                "weight": 200
+            },
+            {
+                "name": "Roles",
+                "link": "/extras/roles/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Secrets",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Secrets",
+                "link": "/extras/secrets/",
+                "weight": 100
+            },
+            {
+                "name": "Secrets Groups",
+                "link": "/extras/secrets-groups/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Jobs",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Jobs",
+                "link": "/extras/jobs/",
+                "weight": 100
+            },
+            {
+                "name": "Scheduled Jobs",
+                "link": "/extras/scheduled-jobs/",
+                "weight": 300
+            },
+            {
+                "name": "Job Results",
+                "link": "/extras/job-results/",
+                "weight": 400
+            },
+            {
+                "name": "Job Hooks",
+                "link": "/extras/job-hooks/",
+                "weight": 500
+            },
+            {
+                "name": "Job Buttons",
+                "link": "/extras/job-buttons/",
+                "weight": 600
+            },
+            {
+                "name": "Job Queues",
+                "link": "/extras/job-queues/",
+                "weight": 700
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Logging",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Change Log",
+                "link": "/extras/object-changes/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Users",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Saved Views",
+                "link": "/extras/saved-views/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Data Sources",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Git Repositories",
+                "link": "/extras/git-repositories/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Data Management",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "GraphQL Queries",
+                "link": "/extras/graphql-queries/",
+                "weight": 100
+            },
+            {
+                "name": "Notes",
+                "link": "/extras/notes/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Automation",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Config Contexts",
+                "link": "/extras/config-contexts/",
+                "weight": 100
+            },
+            {
+                "name": "Config Context Schemas",
+                "link": "/extras/config-context-schemas/",
+                "weight": 100
+            },
+            {
+                "name": "Export Templates",
+                "link": "/extras/export-templates/",
+                "weight": 200
+            },
+            {
+                "name": "External Integrations",
+                "link": "/extras/external-integrations/",
+                "weight": 300
+            },
+            {
+                "name": "Webhooks",
+                "link": "/extras/webhooks/",
+                "weight": 400
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Data Model",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Custom Fields",
+                "link": "/extras/custom-fields/",
+                "weight": 100
+            },
+            {
+                "name": "Relationships",
+                "link": "/extras/relationships/",
+                "weight": 200
+            },
+            {
+                "name": "Computed Fields",
+                "link": "/extras/computed-fields/",
+                "weight": 300
+            },
+            {
+                "name": "Custom Links",
+                "link": "/extras/custom-links/",
+                "weight": 400
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "Metadata",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Metadata Types",
+                "link": "/extras/metadata-types/",
+                "weight": 100
+            },
+            {
+                "name": "Object Metadata",
+                "link": "/extras/object-metadata/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.extras",
+        "plugin": "Extras",
+        "group": "General",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Apps Marketplace",
+                "link": "/apps/marketplace/",
+                "weight": 100
+            },
+            {
+                "name": "Installed Apps",
+                "link": "/apps/installed-apps/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "IP Addresses",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "IP Addresses",
+                "link": "/ipam/ip-addresses/",
+                "weight": 100
+            },
+            {
+                "name": "IP Address Assignments",
+                "link": "/ipam/ip-address-to-interface/import/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "Prefixes",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Prefixes",
+                "link": "/ipam/prefixes/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "RIRs",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "RIRs",
+                "link": "/ipam/rirs/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "VRFs",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Namespaces",
+                "link": "/ipam/namespaces/",
+                "weight": 100
+            },
+            {
+                "name": "VRFs",
+                "link": "/ipam/vrfs/",
+                "weight": 100
+            },
+            {
+                "name": "Route Targets",
+                "link": "/ipam/route-targets/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "VLANs",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "VLANs",
+                "link": "/ipam/vlans/",
+                "weight": 100
+            },
+            {
+                "name": "VLAN Groups",
+                "link": "/ipam/vlan-groups/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.ipam",
+        "plugin": "IPAM",
+        "group": "Services",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Services",
+                "link": "/ipam/services/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.load_balancers",
+        "plugin": "Load Balancers",
+        "group": "Load Balancers",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Virtual Servers",
+                "link": "/load-balancers/virtual-servers/",
+                "weight": 100
+            },
+            {
+                "name": "Load Balancer Pools",
+                "link": "/load-balancers/load-balancer-pools/",
+                "weight": 200
+            },
+            {
+                "name": "Load Balancer Pool Members",
+                "link": "/load-balancers/load-balancer-pool-members/",
+                "weight": 300
+            },
+            {
+                "name": "Health Check Monitors",
+                "link": "/load-balancers/health-check-monitors/",
+                "weight": 400
+            },
+            {
+                "name": "Certificate Profiles",
+                "link": "/load-balancers/certificate-profiles/",
+                "weight": 500
+            }
+        ]
+    },
+    {
+        "app": "nautobot_vlan_request",
+        "plugin": "Nautobot Vlan Request App",
+        "group": "Requests",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "VLAN Requests",
+                "link": "/plugins/nautobot_vlan_request/",
+                "weight": 1000
+            }
+        ]
+    },
+    {
+        "app": "nautobot.tenancy",
+        "plugin": "Tenancy",
+        "group": "Tenancy",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Tenants",
+                "link": "/tenancy/tenants/",
+                "weight": 100
+            },
+            {
+                "name": "Tenant Groups",
+                "link": "/tenancy/tenant-groups/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.virtualization",
+        "plugin": "Virtualization",
+        "group": "Virtual Machines",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Virtual Machines",
+                "link": "/virtualization/virtual-machines/",
+                "weight": 100
+            },
+            {
+                "name": "Interfaces",
+                "link": "/virtualization/interfaces/",
+                "weight": 200
+            }
+        ]
+    },
+    {
+        "app": "nautobot.virtualization",
+        "plugin": "Virtualization",
+        "group": "Clusters",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Clusters",
+                "link": "/virtualization/clusters/",
+                "weight": 100
+            },
+            {
+                "name": "Cluster Types",
+                "link": "/virtualization/cluster-types/",
+                "weight": 200
+            },
+            {
+                "name": "Cluster Groups",
+                "link": "/virtualization/cluster-groups/",
+                "weight": 300
+            }
+        ]
+    },
+    {
+        "app": "nautobot.vpn",
+        "plugin": "VPNs",
+        "group": "VPNs",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "VPNs",
+                "link": "/vpn/vpns/",
+                "weight": 100
+            },
+            {
+                "name": "VPN Tunnels",
+                "link": "/vpn/vpn-tunnels/",
+                "weight": 100
+            },
+            {
+                "name": "VPN Tunnel Endpoints",
+                "link": "/vpn/vpn-tunnel-endpoints/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.vpn",
+        "plugin": "VPNs",
+        "group": "Profiles & Policies",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "VPN Profiles",
+                "link": "/vpn/vpn-profiles/",
+                "weight": 100
+            },
+            {
+                "name": "VPN Phase 1 Policies",
+                "link": "/vpn/vpn-phase-1-policies/",
+                "weight": 100
+            },
+            {
+                "name": "VPN Phase 2 Policies",
+                "link": "/vpn/vpn-phase-2-policies/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.vpn",
+        "plugin": "VPNs",
+        "group": "Terminations",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "VPN Terminations",
+                "link": "/vpn/vpn-terminations/",
+                "weight": 100
+            }
+        ]
+    },
+    {
+        "app": "nautobot.wireless",
+        "plugin": "Wireless",
+        "group": "Wireless",
+        "icon": "bi-puzzle",
+        "section": "private",
+        "items": [
+            {
+                "name": "Wireless Networks",
+                "link": "/wireless/wireless-networks/",
+                "weight": 100
+            },
+            {
+                "name": "Wireless Controllers",
+                "link": "/dcim/controllers/?capabilities=wireless",
+                "weight": 200
+            },
+            {
+                "name": "Device Groups",
+                "link": "/dcim/controller-managed-device-groups/?capabilities=wireless",
+                "weight": 300
+            },
+            {
+                "name": "Radio Profiles",
+                "link": "/wireless/radio-profiles/",
+                "weight": 500
+            },
+            {
+                "name": "Supported Data Rates",
+                "link": "/wireless/supported-data-rates/",
+                "weight": 600
+            }
+        ]
+    }
+]

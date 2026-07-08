@@ -91,7 +91,7 @@ def build_sidebar_entry(app_config, group):
 
 def generate_sidebar_json():
     sidebar = []
-
+    print("test")
     for app_config in sorted(
         apps.get_app_configs(),
         key=lambda x: x.verbose_name.lower(),
@@ -136,5 +136,6 @@ def generate_sidebar_json():
     )
 
 
-if __name__ == "__main__":
-    generate_sidebar_json()
+#if __name__ == "__main__":
+print("testing")
+generate_sidebar_json()
